@@ -5,47 +5,48 @@ package Entreprise.bean;
 
 /**
  * @author Windows 10
- *
+ * 
  */
 public class Entreprise {
-private String nomEntreprise, Adresse, telephone,Email,Horaire;
-public String getAdresse() {
-	return Adresse;
-}
+	private String nomEntreprise, Adresse, telephone, Email, Horaire;
 
-public void setAdresse(String adresse) {
-	Adresse = adresse;
-}
+	public String getAdresse() {
+		return Adresse;
+	}
 
-public String getTelephone() {
-	return telephone;
-}
+	public void setAdresse(String adresse) {
+		Adresse = adresse;
+	}
 
-public void setTelephone(String telephone) {
-	this.telephone = telephone;
-}
+	public String getTelephone() {
+		return telephone;
+	}
 
-public String getEmail() {
-	return Email;
-}
+	public void setTelephone(String telephone) {
+		this.telephone = telephone;
+	}
 
-public void setEmail(String email) {
-	Email = email;
-}
+	public String getEmail() {
+		return Email;
+	}
 
-public String getHoraire() {
-	return Horaire;
-}
+	public void setEmail(String email) {
+		Email = email;
+	}
 
-public void setHoraire(String horaire) {
-	Horaire = horaire;
-}
+	public String getHoraire() {
+		return Horaire;
+	}
 
-public String getNomEntreprise() {
-	return nomEntreprise;
-}
+	public void setHoraire(String horaire) {
+		Horaire = horaire;
+	}
 
-public void setNomEntreprise(String nomEntreprise) {
-	this.nomEntreprise = nomEntreprise;
-}
+	public String getNomEntreprise() {
+		return nomEntreprise;
+	}
+
+	public void setNomEntreprise(String nomEntreprise) {
+		this.nomEntreprise = nomEntreprise;
+	}
 }
