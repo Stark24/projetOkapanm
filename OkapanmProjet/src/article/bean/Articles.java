@@ -5,13 +5,13 @@ package article.bean;
 
 import java.util.List;
 
-import utilities.Global;
+import okapanm.itilite.Global;
 
 /**
  * @author Lincoln
  *
  */
-public class Articles  implements utilities.Global<Article>  {
+public class Articles  implements Global<Article>  {
 
 	/* (non-Javadoc)
 	 * @see utilities.Global#Enregistrer(java.lang.Object)
