@@ -16,7 +16,6 @@ public class Articles  implements utilities.Global<Article>  {
 	/* (non-Javadoc)
 	 * @see utilities.Global#Enregistrer(java.lang.Object)
 	 */
-	@Override
 	public void Enregistrer(Article obj) {
 		
 	}
@@ -24,7 +23,6 @@ public class Articles  implements utilities.Global<Article>  {
 	/* (non-Javadoc)
 	 * @see utilities.Global#Modifier(java.lang.Object)
 	 */
-	@Override
 	public void Modifier(Article obj) {
 		
 	}
@@ -32,7 +30,6 @@ public class Articles  implements utilities.Global<Article>  {
 	/* (non-Javadoc)
 	 * @see utilities.Global#Supprimer(java.lang.Object)
 	 */
-	@Override
 	public void Supprimer(Article obj) {
 		
 	}
@@ -40,7 +37,6 @@ public class Articles  implements utilities.Global<Article>  {
 	/* (non-Javadoc)
 	 * @see utilities.Global#Afficher()
 	 */
-	@Override
 	public List Afficher() {
 		return null;
 	}
@@ -48,7 +44,6 @@ public class Articles  implements utilities.Global<Article>  {
 	/* (non-Javadoc)
 	 * @see utilities.Global#Rechercher(java.lang.String)
 	 */
-	@Override
 	public List Rechercher(String motif) {
 		return null;
 	}
