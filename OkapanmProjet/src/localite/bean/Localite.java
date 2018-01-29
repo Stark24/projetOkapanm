@@ -9,23 +9,32 @@ package localite.bean;
  */
 public class Localite {
 private String NomLocalite;
-private int latitude,longitude;
+private double latitude,longitude;
 public String getNomLocalite() {
 	return NomLocalite;
 }
 public void setNomLocalite(String nomLocalite) {
 	NomLocalite = nomLocalite;
 }
-public int getLongitude() {
-	return longitude;
+
+
+public Localite() {
+	
 }
-public void setLongitude(int longitude) {
-	this.longitude = longitude;
+public Localite(String NomLocalite,double latitude,double longitude) {
+	this.latitude=latitude;
+	this.longitude=longitude;
 }
-public int getLatitude() {
+public double getLatitude() {
 	return latitude;
 }
-public void setLatitude(int latitude) {
+public void setLatitude(double latitude) {
 	this.latitude = latitude;
+}
+public double getLongitude() {
+	return longitude;
+}
+public void setLongitude(double longitude) {
+	this.longitude = longitude;
 }
 }

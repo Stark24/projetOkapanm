@@ -17,4 +17,10 @@ public String getDeptname() {
 public void setDeptname(String deptname) {
 	this.deptname = deptname;
 }
+public Departement() {
+	
+}
+public Departement(String deptname) {
+	this.deptname=deptname;
+}
 }

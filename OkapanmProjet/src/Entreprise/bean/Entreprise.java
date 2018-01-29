@@ -48,4 +48,14 @@ public String getNomEntreprise() {
 public void setNomEntreprise(String nomEntreprise) {
 	this.nomEntreprise = nomEntreprise;
 }
+public Entreprise() {
+	
+}
+public Entreprise(String nomEntreprise,String Adresse,String telephone, String Email,String Horaire) {
+	this.nomEntreprise=nomEntreprise;
+	this.Adresse=Adresse;
+	this.Email=Email;
+	this.telephone=telephone;
+	this.Horaire=Horaire;
+}
 }

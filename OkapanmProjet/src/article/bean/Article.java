@@ -34,4 +34,15 @@ public String getNomArticle() {
 public void setNomArticle(String nomArticle) {
 	this.nomArticle = nomArticle;
 }
+public Article()
+{
+	
+}
+public Article(String nomArticle,String description,double quantite, double prix) {
+this.nomArticle=nomArticle;
+this.description=description;
+this.prix=prix;
+this.quantite=quantite;
+}
+
 }
