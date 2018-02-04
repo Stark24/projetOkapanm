@@ -42,7 +42,6 @@ public class Entreprise {
 		Horaire = horaire;
 	}
 
-<<<<<<< HEAD
 	public String getNomEntreprise() {
 		return nomEntreprise;
 	}
@@ -50,19 +49,17 @@ public class Entreprise {
 	public void setNomEntreprise(String nomEntreprise) {
 		this.nomEntreprise = nomEntreprise;
 	}
-=======
-public void setNomEntreprise(String nomEntreprise) {
-	this.nomEntreprise = nomEntreprise;
-}
-public Entreprise() {
-	
-}
-public Entreprise(String nomEntreprise,String Adresse,String telephone, String Email,String Horaire) {
-	this.nomEntreprise=nomEntreprise;
-	this.Adresse=Adresse;
-	this.Email=Email;
-	this.telephone=telephone;
-	this.Horaire=Horaire;
-}
->>>>>>> f677d6dff1a984fe87ad78543bb6be9f80a8b3ba
+
+	public Entreprise() {
+
+	}
+
+	public Entreprise(String nomEntreprise, String Adresse, String telephone,
+			String Email, String Horaire) {
+		this.nomEntreprise = nomEntreprise;
+		this.Adresse = Adresse;
+		this.Email = Email;
+		this.telephone = telephone;
+		this.Horaire = Horaire;
+	}
 }

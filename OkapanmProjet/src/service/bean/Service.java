@@ -21,15 +21,17 @@ public class Service {
 	public String getCategorieService() {
 		return categorieService;
 	}
-	
+
 	public void setCategorieService(String categorieService) {
 		this.categorieService = categorieService;
 	}
-	
-	public Service() {}
-	public Service(String nomService,String categorieService) {
-		this.nomService=nomService;	
-		this.categorieService=categorieService;
+
+	public Service() {
+	}
+
+	public Service(String nomService, String categorieService) {
+		this.nomService = nomService;
+		this.categorieService = categorieService;
 	}
 
 }
