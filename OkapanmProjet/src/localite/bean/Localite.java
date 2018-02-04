@@ -12,14 +12,6 @@ public class Localite {
 	private String NomLocalite;
 	private double latitude, longitude;
 
-	public String getNomLocalite() {
-		return NomLocalite;
-	}
-
-	public void setNomLocalite(String nomLocalite) {
-		NomLocalite = nomLocalite;
-	}
-
 	public Localite() {
 
 	}
@@ -27,6 +19,14 @@ public class Localite {
 	public Localite(String NomLocalite, double latitude, double longitude) {
 		this.latitude = latitude;
 		this.longitude = longitude;
+	}
+	
+	public String getNomLocalite() {
+		return NomLocalite;
+	}
+
+	public void setNomLocalite(String nomLocalite) {
+		NomLocalite = nomLocalite;
 	}
 
 	public double getLatitude() {
