@@ -21,22 +21,15 @@ public class Service {
 	public String getCategorieService() {
 		return categorieService;
 	}
-
-<<<<<<< HEAD
+	
 	public void setCategorieService(String categorieService) {
 		this.categorieService = categorieService;
 	}
-
-=======
-public void setCategorieService(String categorieService) {
-	this.categorieService = categorieService;
-}
-public Service() {
 	
-}
-public Service(String nomService,String categorieService) {
-this.nomService=nomService;	
-this.categorieService=categorieService;
-}
->>>>>>> f677d6dff1a984fe87ad78543bb6be9f80a8b3ba
+	public Service() {}
+	public Service(String nomService,String categorieService) {
+		this.nomService=nomService;	
+		this.categorieService=categorieService;
+	}
+
 }

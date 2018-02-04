@@ -6,7 +6,7 @@ package okapanm.itility;
 import java.util.List;
 
 /**
- * @author Lincoln
+ * @author H. Lincoln COMPERE
  *
  */
 public interface Global<T>{
