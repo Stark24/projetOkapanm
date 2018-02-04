@@ -5,7 +5,7 @@ package article.bean;
 
 import java.util.List;
 
-import okapanm.itilite.Global;
+import okapanm.itility.Global;
 
 /**
  * @author Lincoln

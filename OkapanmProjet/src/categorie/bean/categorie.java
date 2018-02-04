@@ -17,4 +17,11 @@ public String getNomCategorie() {
 public void setNomCategorie(String nomCategorie) {
 	this.nomCategorie = nomCategorie;
 }
+public categorie()
+{
+	
+}
+public categorie(String nomCategorie) {
+	this.nomCategorie=nomCategorie;
+}
 }

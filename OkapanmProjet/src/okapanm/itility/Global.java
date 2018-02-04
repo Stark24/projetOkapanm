@@ -1,7 +1,7 @@
 /**
  * 
  */
-package okapanm.itilite;
+package okapanm.itility;
 
 import java.util.List;
 
